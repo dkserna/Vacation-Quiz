@@ -1,0 +1,7 @@
+body {
+  background-color: #ffe6e6;
+}
+
+#choices, #under-18 {
+  display: none;
+}
