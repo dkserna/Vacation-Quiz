@@ -12,7 +12,7 @@
       <div id="choices">
       <form id="vacation">
         <h1>Where Should I Go on Vacation?</h1>
-        <h2>A quiz for those 18 years of age and over to determine their ultimate vacay destination.</h2>
+        <h2>A quiz to determine your ultimate vacay destination.</h2>
         <h4>What is your favorite caffeinated beverage?</h4>
         <select class="form-control" id="beverage">
           <option value="1">Iced Coffee</option>
@@ -21,14 +21,14 @@
           <option value="4">I don't do caffeine.</option>
         </select>
         <h4>What is your favorite sweet treat?</h4>
-        <select class="form-control" id="beverage">
+        <select class="form-control" id="treat">
           <option value="1">Cookies</option>
           <option value="2">Ice Cream</option>
           <option value="3">Candy</option>
           <option value="4">Cake</option>
         </select>
         <h4>What is your favorite past time?</h4>
-        <select class="form-control" id="beverage">
+        <select class="form-control" id="time">
           <option value="1">Hiking</option>
           <option value="2">Sports</option>
           <option value="3">Reading</option>
@@ -42,21 +42,19 @@
           <option value="4">Night</option>
         </select>
         <h4>What was your favorite subject in school?</h4>
-        <select class="form-control" id="beverage">
+        <select class="form-control" id="school">
           <option value="1">Math</option>
           <option value="2">Science</option>
           <option value="3">Art</option>
           <option value="4">History</option>
         </select>
         <p>
-          <button type="submit" class="btn btn-info" name="button">Submit!</button>
+          <button type="submit" id="submitSurvey" class="btn btn-info" name="button">Submit your answers!</button>
         </p>
       </form>
     </div>
-    <div id="under-18">
-      <h1>Sorry, kid, try again when you're 18!</h1>
-
-      <p>Vacations are expensive anyway.</p>
+    <div class="results">
+      <h4>According to our extremely scientific algorithm, the perfect vacation destination for you is <span id="userResult"></span>. We hope that you enjoy the course and work hard to become a great programmer!</h4>
     </div>
   </div>
   </body>
